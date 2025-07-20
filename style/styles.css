@@ -64,3 +64,18 @@
     height: 475px;
     background-image: url("../images/Circle\ design.svg");
 }
+/* sponsor */
+
+.sponsor-logo{
+    border: 2px solid green;
+    margin: 100px 165px;
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.logos{
+    width: 90px;
+    height: 30px;
+}
