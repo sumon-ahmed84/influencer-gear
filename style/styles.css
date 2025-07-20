@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    width: 1440px;
+}
 /* shared style   */
 .btn-primary{
     width: 196px;
@@ -82,7 +85,7 @@
 .product-iteams{
     width: 1047px;
     height: 1662px;
-    margin: 100px 196px;
+    margin: 100px 196px 50px 196px;
 }
 .title{
     text-align: center;
@@ -123,6 +126,8 @@
     box-sizing: border-box;
     border-radius: 5px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 8px;
+    box-sizing: border-box;
 }
 .btn-2{
     width: 95px;
@@ -138,4 +143,41 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.Featured-products{
+    width: 1110px;
+    height: 270px;
+    margin: 0px 180px 50px 150px;
+}
+.main-last{
+    display: flex;
+    gap: 96px;
+    align-items: center;
+}
+
+.feautare-pro-container{
+    width: 610px;
+    height: 224px;
+    
+}
+.pr-title{
+    font-weight: 700px;
+    font-size: 38px;
+    color: rgb(10, 8, 38);
+}
+.pr-description{
+    font-weight: 700px;
+    font-size: 16px;
+    color: rgb(108, 108, 108);
+    margin-top: 15px;
+}
+.btn3{
+    width: 155px;
+    height: 44px;
+    margin-top: 15px;
+    font-weight: 700px;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 44, 109);
 }
