@@ -2,6 +2,19 @@
     margin: 0px;
     padding: 0px;
 }
+/* shared style   */
+.btn-primary{
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    font-size:16px ;
+    font-weight: 700px;
+    margin-top: 20px;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+    border: none;
+}
 /* styles navbar */
 .nav-itens{
     display: flex;
@@ -30,12 +43,24 @@
     gap: 133px;
 }
 .Influencer-journey{
-    border: 2px solid rgba(207, 20, 85, 0.91);
     width: 582px;
     height: 270px;
+    margin-top: 145px;
+    box-sizing: border-box;
+}
+.journey-title{
+    font-weight: 700px;
+    font-size: 52px;
+    color:#3A3A3A;
+}
+.journey-description{
+    font-weight: 600px;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-top: 16px;
 }
 .camera{
-    border: 2px solid green;
     width: 470px;
     height: 475px;
+    background-image: url("../images/Circle\ design.svg");
 }
